@@ -1,0 +1,75 @@
+body {
+    background-color:  #f2fcec;
+    margin: 0;
+  }
+
+  header {
+    top: 0;
+    width: 100%;
+    background-color: #b3c15d;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(238, 241, 240);
+    padding: 15px 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    z-index: 1000;
+  }
+
+  main {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  nav a {
+    color: rgb(255, 255, 255);
+    margin-right: 20px;
+    text-decoration: none;
+  }
+
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #b3c15d;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.2);
+    z-index: 1000;
+  }
+
+  .container {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .container img {
+    height: auto;
+  }
+
+  .container p {
+    margin: 0;
+  }
+
+  h2 {
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ color: #ffc467;  
+  text-align: center; 
+  }
+
+  h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #bd7a6e;
+     text-align: center; 
+     }
+     
+    .sites-tecnologia {
+        list-style: none; 
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
